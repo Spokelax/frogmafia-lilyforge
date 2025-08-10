@@ -1,0 +1,13 @@
+name = "UltimaCraft Enchantments"
+filename = "ultimacraft-enchantments-b-1-1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "248add5eb28b8291752ffc1da073a96b679a2a07"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5598037
+project-id = 498656

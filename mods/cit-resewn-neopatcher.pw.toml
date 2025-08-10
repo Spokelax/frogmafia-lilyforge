@@ -1,0 +1,13 @@
+name = "CITResewnNeoPatcher"
+filename = "citresewn_neopatcher-1.1.0-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4342bfcecf3397ff15c5315a4254459c4b2553c7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5972999
+project-id = 1129800

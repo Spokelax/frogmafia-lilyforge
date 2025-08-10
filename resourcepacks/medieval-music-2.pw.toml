@@ -1,0 +1,13 @@
+name = "Medieval Music 2"
+filename = "MedievalMusic2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "becec654410454ed9daeb7326f09060151f0e9a5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4680100
+project-id = 398269

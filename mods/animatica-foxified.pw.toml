@@ -1,0 +1,13 @@
+name = "Animatica Foxified"
+filename = "AnimaticaFoxified-0.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "246934f81025a13d98c239757b9abbf0ab23606a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5823654
+project-id = 1103129

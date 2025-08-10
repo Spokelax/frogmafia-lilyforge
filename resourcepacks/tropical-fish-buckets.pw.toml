@@ -1,0 +1,13 @@
+name = "Tropical Fish Buckets"
+filename = "Tropical Fish Buckets.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6ce07b1dcf52ab0fe358b38165e37d590f3b0028"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5723218
+project-id = 878335

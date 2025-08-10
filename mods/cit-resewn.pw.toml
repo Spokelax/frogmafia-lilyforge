@@ -1,0 +1,9 @@
+name = "CIT Resewn"
+filename = "citresewn-1.2.2+1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5569769f66eda6d51ca3ae56d58d5a4657f19ef9"
+mode = "url"
+url = "https://mediafiles.forgecdn.net/files/5821/270/citresewn-1.2.2+1.21.jar"

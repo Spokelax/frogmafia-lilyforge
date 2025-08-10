@@ -1,0 +1,13 @@
+name = "Dark Window Bar"
+filename = "darkwindowbar-neoforge-1.0.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc9e8981c38f48701d635dab19cfb10694644972"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6715999
+project-id = 1297905

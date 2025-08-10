@@ -1,0 +1,13 @@
+name = "UltimaCraft Interface"
+filename = "UltimaCraft_Interface_(v.1.0)_(1.17).zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1098d5e4c103cb997e28c1775208842170bb9b83"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3455691
+project-id = 366998

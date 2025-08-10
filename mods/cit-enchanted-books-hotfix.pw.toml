@@ -1,0 +1,13 @@
+name = "CIT: Hotfix for Enchanted Books"
+filename = "cithotfix-1.21.1-neoforge-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c723438a2377cf1d5afecf21345aa40a2a04a51b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6540236
+project-id = 1086209
