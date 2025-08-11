@@ -76,6 +76,11 @@ hash = "29f718643b8445d3f7e65faac40073893c1cbfb00d2e0cff620b752e73b58389"
 metafile = true
 
 [[files]]
+file = "mods/better-modlist-neoforge.pw.toml"
+hash = "264ba671e29a66408427f798092c8f5af27f4b8423eef4f648e1b789a2f42c18"
+metafile = true
+
+[[files]]
 file = "mods/builders-jetpack-mod.pw.toml"
 hash = "7dcc8067eee39eaf397c53bd7e741e8ba1b65a8b31873c2e801e6d5999a05119"
 metafile = true
