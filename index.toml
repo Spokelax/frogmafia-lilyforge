@@ -9,6 +9,10 @@ file = "config/bcc-common.toml"
 hash = "41d2db8282c71736b57ba8c07353d049e2cafb63023114ffc6d9e9fb465fc3d2"
 
 [[files]]
+file = "config/darkmodeeverywhere-client.toml"
+hash = "f53cc3e33e1771c4e0af35c9dd7c9e6c7f1d09ca36ec5b970f933d0dd066dc56"
+
+[[files]]
 file = "config/immediatelyfast.json"
 hash = "01e8d5dfbdec05402033099049fc6a3bd718ae5647d091252dd49c697c3228b4"
 
@@ -338,6 +342,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "6b3f722168fa57e23fca5441d9b74a11194d9252625d6bf0898c4d212f99380a"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "23291e2fb4b1fd48cbfc28ec2e50a76a3d908c4477e6164698406a4c953935ae"
 metafile = true
 
 [[files]]
