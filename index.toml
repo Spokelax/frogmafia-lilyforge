@@ -381,6 +381,11 @@ hash = "30ff22e8f8f3f55aceb14658f2cef895bfde9844980becf531213ad95549e4e4"
 metafile = true
 
 [[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "e239d7404f14aea23d8808e0d001012d86a768ac9c182ca5563ad5f3a1875687"
+metafile = true
+
+[[files]]
 file = "mods/platform.pw.toml"
 hash = "58992066f622dfee52a6ed7ad835e461c88ac64f485ef20b0d8662871abe0c3f"
 metafile = true
@@ -513,6 +518,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "feb67f4e3a254fafda303ccdb989354524aaa29bd26f1cc0013764b9f93040d9"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "5aaab5c3140ac335cf0345f9f280fc5774a2834faecc290272b3d24b8a97274a"
 metafile = true
 
 [[files]]
