@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "995107821f8e0de23bdf4af01bd99c4bbdac6e419e0913b4d72b47911782c918"
+
+[[files]]
 file = "config/bcc-common.toml"
 hash = "41d2db8282c71736b57ba8c07353d049e2cafb63023114ffc6d9e9fb465fc3d2"
 
@@ -15,10 +19,6 @@ hash = "82c27283f259d3a6d84f059b30a05f3ddc62f96ea9f0fdbfe2a2e65a20c180ba"
 [[files]]
 file = "config/moreculling.toml"
 hash = "f018601e9ce58e63273ab17d8fa0390706f5a2a433d4a0491472287bc241a3c0"
-
-[[files]]
-file = "index-fabric"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -223,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/deimos-fabric-forge-neoforge.pw.toml"
 hash = "1f0312a71f5d0852cd3d03213315295c768546d401f08157f5698985ad82e28f"
+metafile = true
+
+[[files]]
+file = "mods/distant-horizons.pw.toml"
+hash = "aa0c2ab534fe56d93d1fb1d25be0a3613c9b05a1cbd5d3be9b72f10179c56232"
 metafile = true
 
 [[files]]
