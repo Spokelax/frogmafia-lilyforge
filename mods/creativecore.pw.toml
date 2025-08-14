@@ -1,6 +1,6 @@
 name = "CreativeCore"
 filename = "CreativeCore_NEOFORGE_v2.13.7_mc1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

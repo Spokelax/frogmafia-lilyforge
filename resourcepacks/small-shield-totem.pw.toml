@@ -1,6 +1,6 @@
 name = "Small Shield & Totem"
 filename = "Small_Shield__Totem_v2.9.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

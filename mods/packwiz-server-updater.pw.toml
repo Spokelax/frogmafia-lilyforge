@@ -1,0 +1,13 @@
+name = "Packwiz Server Updater"
+filename = "packwizsu-2.1.1.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "2b27496980b1aaf15c8fe3899731f675bc398d84"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4970525
+project-id = 952219

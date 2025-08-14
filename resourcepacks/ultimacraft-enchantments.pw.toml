@@ -1,6 +1,6 @@
 name = "UltimaCraft Enchantments"
 filename = "ultimacraft-enchantments-b-1-1.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

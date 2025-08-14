@@ -1,6 +1,6 @@
 name = "Forge Config API Port"
 filename = "ForgeConfigAPIPort-v21.1.4-1.21.1-NeoForge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1,6 +1,6 @@
 name = "Seamless"
 filename = "seamless-2.3.2-neoforge-1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

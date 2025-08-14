@@ -1,6 +1,6 @@
 name = "UltimaCraft Interface"
 filename = "UltimaCraft_Interface_(v.1.0)_(1.17).zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
