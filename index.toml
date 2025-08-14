@@ -386,7 +386,7 @@ metafile = true
 
 [[files]]
 file = "mods/octo-lib.pw.toml"
-hash = "12ecfd6c566a21a8a33292997ad06d9e8fe48ad052ec9ed7091256c77af5996a"
+hash = "28137222c7b4096b243b2d65595995465cf2deac0fffce78c9af434680bef83b"
 metafile = true
 
 [[files]]
