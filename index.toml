@@ -446,7 +446,7 @@ metafile = true
 
 [[files]]
 file = "mods/refined-storage-quartz-arsenal.pw.toml"
-hash = "d363b029f9f7afe05058d48a798a45b4856fcd3cc12826e2fac4fa4dd6bf231e"
+hash = "d6d2ecfb2ea5ae94c1e6c442bb9347f331011cd26f2193a42ae92737db35ac29"
 metafile = true
 
 [[files]]
