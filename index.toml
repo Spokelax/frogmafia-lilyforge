@@ -175,6 +175,11 @@ hash = "0f33a20021875964144c8297d8b250f640c2fe0c9a3c18203b6697e546a9ec81"
 metafile = true
 
 [[files]]
+file = "mods/create-escalated.pw.toml"
+hash = "cde4872a58b202f6773581f2e0de7d3f62850aca7a077adf162a5e25724b55cc"
+metafile = true
+
+[[files]]
 file = "mods/create-industry.pw.toml"
 hash = "e04d952cedbf936e070e95a302e522e6e8ff3cbe3a9aa0ee5b163d8e174fbdf8"
 metafile = true
