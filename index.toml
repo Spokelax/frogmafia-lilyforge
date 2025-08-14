@@ -381,7 +381,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
-hash = "1794eaa1c638e8c330d5dd7e274aa4f35c88ef0399720fc91318eaff19193f39"
+hash = "9bc4e7441edda5d7c4bd0eecbec30dc3ebe99675d8e812938444685a366edc92"
 metafile = true
 
 [[files]]
