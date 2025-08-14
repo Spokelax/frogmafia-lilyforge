@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/ash-api.pw.toml"
-hash = "a21ec74ef94497a50d3de5ca21eb31b061f98295f052d658ed4f3f49bc46d13e"
+hash = "aaa823ab125a577145c99dfa1968972e036a52792bd7c0c536e6076a3f18b043"
 metafile = true
 
 [[files]]
@@ -76,7 +76,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-compatibility-checker.pw.toml"
-hash = "7698da951d324e76123f7892181cad21427bf92022e43445833151d410cd9317"
+hash = "1d435f1668611f353a386b365cb814fec042758045bf4118320586ebbd881570"
 metafile = true
 
 [[files]]
