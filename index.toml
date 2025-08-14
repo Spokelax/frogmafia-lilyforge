@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/ash-api.pw.toml"
-hash = "ff590709d03edcb1b55f1383b3c8c51ef4cbc7c2b2efd2f7a0d28e5a27e61d11"
+hash = "a21ec74ef94497a50d3de5ca21eb31b061f98295f052d658ed4f3f49bc46d13e"
 metafile = true
 
 [[files]]
