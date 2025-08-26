@@ -36,7 +36,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "bde2a498b3bfd6e8531bf6bfbe569233ecb4918c42aae6394d900f964a9714e8"
+hash = "c152b7a224b7bcc95547e426bef5dd63749b39814fdd991e7bc9ccdf3cb1bdca"
 metafile = true
 
 [[files]]
