@@ -1,0 +1,83 @@
+name: Release On Version Tag Push
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  auto-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Get tag info
+        id: tag_info
+        run: |
+          echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "full_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Get previous release
+        id: prev_release
+        run: |
+          # Get all tags sorted by version, find the one before current
+          CURRENT_TAG="${{ steps.tag_info.outputs.tag }}"
+          
+          # Get all tags in ascending order, then find the one before current
+          ALL_TAGS=$(git tag --sort=version:refname)
+          PREV_TAG=$(echo "$ALL_TAGS" | grep -B1 "^${CURRENT_TAG}$" | head -1 || echo "")
+          
+          if [ "$PREV_TAG" = "$CURRENT_TAG" ] || [ -z "$PREV_TAG" ]; then
+            # If no previous tag, use first commit
+            PREV_SHA=$(git rev-list --max-parents=0 HEAD)
+            PREV_TAG=""
+          else
+            PREV_SHA=$(git rev-list -n 1 $PREV_TAG)
+          fi
+          echo "sha=$PREV_SHA" >> $GITHUB_OUTPUT
+          echo "tag=$PREV_TAG" >> $GITHUB_OUTPUT
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          if [ -n "${{ steps.prev_release.outputs.sha }}" ]; then
+            COMMITS_RANGE="${{ steps.prev_release.outputs.sha }}..${{ steps.tag_info.outputs.full_sha }}"
+            echo "**Commits**" > changelog.md
+            echo "https://github.com/${{ github.repository }}/compare/${{ steps.prev_release.outputs.tag }}...${{ steps.tag_info.outputs.tag }}" >> changelog.md
+            echo "" >> changelog.md
+            
+            # Get commit messages with authors
+            git log --format="* %s (@%an)" $COMMITS_RANGE >> changelog.md
+          else
+            echo "**Commits**" > changelog.md
+            echo "https://github.com/${{ github.repository }}/compare/${{ steps.tag_info.outputs.tag }}...${{ steps.tag_info.outputs.tag }}" >> changelog.md
+            echo "" >> changelog.md
+            echo "* Initial project setup" >> changelog.md
+            echo "* Core features implementation" >> changelog.md
+          fi
+          
+          # Read the changelog into output
+          echo "content<<EOF" >> $GITHUB_OUTPUT
+          cat changelog.md >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag_info.outputs.tag }}
+          name: "FrogMafia's LilyForge ${{ steps.tag_info.outputs.tag }}"
+          body: |
+            ${{ steps.changelog.outputs.content }}
+            
+            **Building**  
+            Download the source code and follow the README instructions.
+          prerelease: false
+          make_latest: true
+          generate_release_notes: false
