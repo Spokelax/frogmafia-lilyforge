@@ -185,6 +185,11 @@ hash = "6db118d947d8db155343014d01e4dbb823d0e187dd401235a3b60654316efe73"
 metafile = true
 
 [[files]]
+file = "mods/create-better-fps.pw.toml"
+hash = "0c38cbbaa9ec17c7498a72a483155c9558d57504831fa53fa41586e6e56a80d0"
+metafile = true
+
+[[files]]
 file = "mods/create-design-n-decor.pw.toml"
 hash = "9bb04e0450d54cdaaf10120438a5a1139c84fbcf51f9beca3ebb90c9c01eec0a"
 metafile = true
