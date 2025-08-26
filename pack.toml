@@ -1,12 +1,12 @@
 name = "Frogmafia's LilyForge"
 author = "spokelax"
-version = "1.0.2"
+version = "1.0.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "261f818a425daed7f4c423b71c7ace153244f7ecf4c59c68753ceb833dfd3e8a"
+hash = "dce64a36ef3fe98107f59add3a6ceacd00e580aa454b29842d8e772c62f782e5"
 
 [versions]
 minecraft = "1.21.1"

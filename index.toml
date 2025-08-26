@@ -6,7 +6,7 @@ hash = "995107821f8e0de23bdf4af01bd99c4bbdac6e419e0913b4d72b47911782c918"
 
 [[files]]
 file = "config/bcc-common.toml"
-hash = "d388d892e24e094b9627f6b3b97bffb46dbcdafa363c5e257239b69d225459da"
+hash = "f4a3a1fca8105a3d91235618058a184a8a240642ccbbf4b1a0ee445d12419416"
 
 [[files]]
 file = "config/darkmodeeverywhere-client.toml"
