@@ -475,6 +475,11 @@ hash = "232f18e5eea54607d98b0af5e8e93c213bb534f84a9548fa94ad736762df25da"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
+metafile = true
+
+[[files]]
 file = "mods/seamless.pw.toml"
 hash = "1853a188b4cacf52d8e31d1cd2b943ae1602914a451f05291c096e6a3aaf9429"
 metafile = true
