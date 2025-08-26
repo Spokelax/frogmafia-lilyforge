@@ -100,6 +100,11 @@ hash = "49080fe569a4b9c52fa2f2019e19b474119dadea8b7cc3b40fe21347ab66b8e2"
 metafile = true
 
 [[files]]
+file = "mods/caelus.pw.toml"
+hash = "86cf2ae835b8f3d981af2e88a4d19fdc3dc4f5aa3904c6ba30e25d77d3e9fcbb"
+metafile = true
+
+[[files]]
 file = "mods/camera-mod.pw.toml"
 hash = "d8a98b212b5a00a2859a45fd0dea0ce1df3a6ff8fbc5c2bc0bf166b80e217500"
 metafile = true
