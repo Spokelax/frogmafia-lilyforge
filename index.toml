@@ -105,6 +105,11 @@ hash = "110a0311063e8d4e6dcd357925fefd96e30e039eee39b4fb8c803b33db55da2e"
 metafile = true
 
 [[files]]
+file = "mods/chipped.pw.toml"
+hash = "3024466ae43de66612dc5ec4cfe5b3a273f71cee29fc6940308798a817d561b6"
+metafile = true
+
+[[files]]
 file = "mods/chunk-sending-forge-fabric.pw.toml"
 hash = "1bade76716eb99c3f2435d2219aceea7781b5534cfe8a7b78f934f24d98347e6"
 metafile = true
