@@ -65,6 +65,11 @@ hash = "aaa823ab125a577145c99dfa1968972e036a52792bd7c0c536e6076a3f18b043"
 metafile = true
 
 [[files]]
+file = "mods/athena.pw.toml"
+hash = "e1599947a8d78f74c129a8420569bb2453b2ce76fdc76a7151093923ea8366c9"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "2955b5a5785789d03fccdfbb44ff5f59185c4beb03b3b1f911b7fb40297c1fae"
 metafile = true
