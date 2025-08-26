@@ -275,6 +275,11 @@ hash = "331965a72cb0240b1f6bbb02e5a2e509b6d046c2b1e99d1ff195430d7012ab20"
 metafile = true
 
 [[files]]
+file = "mods/elytra-slot.pw.toml"
+hash = "32078c39569bbb4b33d2d86a09cfc18a9f5b63a11d0ba2b186fd07341e422c92"
+metafile = true
+
+[[files]]
 file = "mods/emi-enchanting.pw.toml"
 hash = "010b33bb4f596fbe470771e45b1c34344c6e68a3c6ccad3375c14a90dda365f9"
 metafile = true
