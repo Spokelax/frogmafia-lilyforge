@@ -410,11 +410,6 @@ hash = "239f5b8f58fd1bcecbae065800eef12f5681952629a161603f65be89e8ae4e1a"
 metafile = true
 
 [[files]]
-file = "mods/packwiz-server-updater.pw.toml"
-hash = "4a789668fa68785ff46fdb8530af6b166d6a49a335b0a4b8841b68a1a7589230"
-metafile = true
-
-[[files]]
 file = "mods/particle-rain.pw.toml"
 hash = "9599595171a474920430b33aade7deeb41da48617a13adb37e8519b2f5575c0d"
 metafile = true
@@ -481,7 +476,7 @@ metafile = true
 
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
-hash = "0c7019e7280274023d6c99b97cda53528a19aaee3d63d322f7ef26eca323e0c0"
+hash = "d564480d7ae1a08790b35398fbe0c6e59d49d2a0d2db005e45a13812a81e4600"
 metafile = true
 
 [[files]]
