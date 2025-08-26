@@ -397,7 +397,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "134a028d083ac4e19648e9cdd9b20fbea03ce24194d464efcd16e50f6dcfc19c"
+hash = "d358ffc339b51f64739ed9d7f8a518a25e5145969c5c30ada2d6ed2f1b489c5b"
 metafile = true
 
 [[files]]
