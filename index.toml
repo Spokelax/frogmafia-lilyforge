@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "995107821f8e0de23bdf4af01bd99c4bbdac6e419e0913b4d72b47911782c918"
-
-[[files]]
 file = "config/bcc-common.toml"
 hash = "f4a3a1fca8105a3d91235618058a184a8a240642ccbbf4b1a0ee445d12419416"
 
@@ -401,7 +397,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "a4e6ab10c1e004e6b65a9532c10b1808e1720ced6fbeaa457ea517fe7ffa0bfd"
+hash = "134a028d083ac4e19648e9cdd9b20fbea03ce24194d464efcd16e50f6dcfc19c"
 metafile = true
 
 [[files]]
