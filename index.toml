@@ -631,11 +631,6 @@ hash = "17a234b5a6a0321d1bd3b7cc64a4c7e1c462f3439d777e47457160cd87b1cb87"
 metafile = true
 
 [[files]]
-file = "resourcepacks/medieval-music-2.pw.toml"
-hash = "b59af83a537d88fb6fc1617ae5447490cc90d6647f458175e045f57138de001c"
-metafile = true
-
-[[files]]
 file = "resourcepacks/small-shield-totem.pw.toml"
 hash = "9859f65d141c0d34a124c6edbc7e3952fcf0db1942813f8927df1322503a1af8"
 metafile = true
