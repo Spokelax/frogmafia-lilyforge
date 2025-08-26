@@ -471,7 +471,7 @@ metafile = true
 
 [[files]]
 file = "mods/refined-storage.pw.toml"
-hash = "232f18e5eea54607d98b0af5e8e93c213bb534f84a9548fa94ad736762df25da"
+hash = "d48869fdb99ffa9d334d3468995db4c3afe02963045f1d3f8baf25a292a7e48d"
 metafile = true
 
 [[files]]
