@@ -1,13 +1,13 @@
 name = "Firefly Bush  [1.18+1.21++ Backport]"
-filename = "fireflybush-2.0.0-neoforge-1.21.1.jar"
+filename = "fireflybushport-3.0.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "90236c458053a6662b0ccdbcd80999f3efc07716"
+hash = "5d93a0ee8c25b56145109b048e1baf3547ec38be"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6168310
+file-id = 7001367
 project-id = 1194702
